@@ -3,39 +3,31 @@
 def admin_login(username, password):
 
      # your code here
-    if (username == admin // username == ADMIN && password == 12345)
-    print ("Access granted")
-
-    elif print ("Access denied")
+        if (username == "admin" or username == "ADMIN") and password == "12345":
+        return "Access granted"
+    else:
+        return "Access denied"
    
     pass
 
 def hows_the_weather(temperature):
     # your code here
-
-    if temperature < 40 
-     print ("It's brisk out there!")
-
-     elif temperature >= 40 && =< 65 
-     print ("It's a little chilly out there!")
-
-     elif temperature > 85 
-     print("It's too dang hot out there!")
-
-     else 
-     print ("It's perfect out there!")
+    if (username == "admin" or username == "ADMIN") and password == "12345":
+        return "Access granted"
+    else:
+        return "Access denied"
     pass
 
 def fizzbuzz(num):
     # your code here
         if num % 3 == 0 and num % 5 == 0:
-        print ("FizzBuzz")
+        return "FizzBuzz"
     elif num % 3 == 0:
-        print ("Fizz")
+        return "Fizz"
     elif num % 5 == 0:
-        print ("Buzz")
+        return "Buzz"
     else:
-        print ("num")
+        return num
 
     pass
 
